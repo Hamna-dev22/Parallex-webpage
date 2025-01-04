@@ -1,0 +1,72 @@
+/* Reset styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(252, 252, 252);
+    margin: 0;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(20, 20, 20);
+    margin: 0;
+    padding: 20px;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+    padding: 0 20px;
+    line-height: 1.6;
+}
+
+section {
+    width: 100%;
+}
+
+/* Parallax sections */
+.parallax {
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parallax-1 {
+    background-image: url('parallex\ 1.jpg');
+}
+
+.parallax-2 {
+    background-image: url('parallex\ 2.jpg');
+}
+
+.parallax-3 {
+    background-image: url('parallex\ 3.jpg');
+}
+
+/* Content sections */
+.content {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: #ccc;
+    text-align: center;
+    padding: 20px;
+}
