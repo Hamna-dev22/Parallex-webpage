@@ -1,4 +1,4 @@
-/* Reset styles */
+
 body, html {
     margin: 0;
     padding: 0;
@@ -31,7 +31,7 @@ section {
     width: 100%;
 }
 
-/* Parallax sections */
+
 .parallax {
     height: 100vh;
     background-attachment: fixed;
@@ -55,7 +55,7 @@ section {
     background-image: url('parallex\ 3.jpg');
 }
 
-/* Content sections */
+
 .content {
     padding: 50px 20px;
     background-color: #f4f4f4;
@@ -63,7 +63,7 @@ section {
     text-align: center;
 }
 
-/* Footer */
+
 footer {
     background-color: #222;
     color: #ccc;
